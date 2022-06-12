@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 3may{js array}</title>
+</head>
+<body>
+   <h2>Java Script</h2>
+   <p id="demo"></p>
+   <script>
+    // Creating an array
+    const chocolates = ["Cadburry", "M&M", "Snickers", "Ferraro roucher"];
+    let chocolate = chocolates[0]; //Accessing an array
+    document.write(chocolate);
+
+    let length = chocolates.length; //length property of an array
+    document.getElementById("demo").innerHTML = length;
+
+    for (let choco of chocolates ); //looping array elements
+    {
+        alert(choco);
+    }
+
+   </script> <br><br>
+
+
+
+  <h2>javascript Array</h2>
+  <p id="demo1"></p>
+  <script>
+    // crating an array
+    const cars = ["BMW", "Audi", "Scoda", "Benz"];
+    let txt = "<ul>"
+    cars.forEach(Myfunc);//Looping the Array
+    txt += "</ul>";
+   
+    document.getElementById("demo1").innerHTML = txt;
+    // document.write(txt);
+    function Myfunc(element){
+    txt += "<li>" + element + "</li>";
+        
+    }
+   
+  </script>
+</body>
+</html>
